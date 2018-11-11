@@ -1,0 +1,33 @@
+h3 {
+    line-height: unset;
+}
+
+.mine {
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.content.beaten.mine {
+    background-color: red;
+}
+
+div:hover {
+    cursor: pointer;
+}
+
+.discovered {
+
+    &.mine {
+        background-color: red;
+    }
+
+    :hover {
+        background: unset;
+        cursor: unset;
+    }
+}
