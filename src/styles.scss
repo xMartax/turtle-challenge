@@ -1,0 +1,39 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.height-all {
+    height: 100%;
+}
+
+/* You can add global styles to this file, and also import other style files */
+table {
+    td {
+        position: relative;
+        border: 1px solid gray;
+        background: white;
+        width: 55px;
+
+        &:after {
+            content: '';
+            display: block;
+            margin-top: 100%;
+        }
+
+        .discovered {
+            background-color:#eee;
+        }
+
+        
+  .content {
+    margin: -1px -1px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+    padding-top: calc((100% - 50%) - 0.5rem);
+}
+    }
+
+}
